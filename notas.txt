@@ -1,0 +1,22 @@
+client
+Quien hace la request o solicitud
+
+request
+La consulta o lo que enviamos para consultar el API
+
+server
+Quien atiende o responde la solicitud
+
+response
+Lo que devuel el API
+
+contrato
+Reglas para comunicarse con el API
+    * URL
+    * Method
+    * Params
+    * Body
+    * Myme Types
+
+Protocolo HTTP
+Reglas comunicacion en internet
