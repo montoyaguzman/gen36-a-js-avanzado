@@ -26,3 +26,20 @@ Establece el contrato del API
 
 Frontend
 Entender y seguir el contrato de las apis
+
+VERBOS HTTP
+GET, POST, PUT, PATCH y DELETE
+
+Metodos para trabajar json y string
+JSON.stringify
+JSON.parse
+
+Manejo de errores
+try, catch, if, else 
+
+
+Routing / Routes
+Direccionar a distintas partes del codigo segun la URL
+
+
+URL que invocamos de una API se le conoce como endpoints
