@@ -3,4 +3,4 @@
 3. Probar su servidor con otro status y otro mymeType 
     Que paso ?
     Cuales fueron los resultados ?
-        A que crees qu se debe ?
+    A que crees qu se debe ?

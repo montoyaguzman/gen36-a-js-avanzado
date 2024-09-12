@@ -20,3 +20,9 @@ Reglas para comunicarse con el API
 
 Protocolo HTTP
 Reglas comunicacion en internet
+
+Backend
+Establece el contrato del API
+
+Frontend
+Entender y seguir el contrato de las apis
