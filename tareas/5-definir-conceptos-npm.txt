@@ -1,0 +1,3 @@
+1. npm i vs npm i algo
+2. package.json vs package-lock.json
+3. que son los scripts en npm

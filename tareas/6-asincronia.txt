@@ -1,0 +1,2 @@
+1. Que es codigo sincrono y que es codigo asincrono?
+2. Ques es asincronia y porque existe en JS?

@@ -17,7 +17,7 @@ Ejercicio 1: GTA (San andreas)
         En la nueva version de GTA se noto que era muy necesario agregar la conversion entre USD/EURO/MXN
 
 Ejercicio:
-Diferencia entre ^ (circunflejo) y  (tilde)
+Diferencia entre ^ (circunflejo) y ~ (tilde)
 "1.0.0" exactamente esa version
 "^1.0.0" cualquier version que sea compatible
 "~1.0.0" cualquier fix se puede instalar
