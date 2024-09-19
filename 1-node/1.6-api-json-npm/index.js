@@ -37,6 +37,7 @@ const server = http.createServer((request, response) => {
         responseObject = {};
     } else {
         // reto: 404
+        console.log('error 404');
     }
 
     const stringObject = JSON.stringify(responseObject);
