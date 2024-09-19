@@ -5,6 +5,8 @@
 
 const http = require('http');
 const url = require('url');
+const colors = require('colors');
+
 const PORT = 8080;
 
 const server = http.createServer((request, response) => {
@@ -47,4 +49,4 @@ const server = http.createServer((request, response) => {
 });
 
 server.listen(8080);
-console.log('Servidor iniciado...', PORT);
+console.log('Servidor iniciado...'.green, PORT);
