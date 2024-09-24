@@ -43,3 +43,17 @@ Direccionar a distintas partes del codigo segun la URL
 
 
 URL que invocamos de una API se le conoce como endpoints
+
+
+FLUJO GIT EN EQUIPO
+
+1. Creacion del repo y asignacion permisos
+2. Commit inicial que todas bajan
+3. Dev 1 sube cambios (add, commit y push)
+4. Dev 2 (add, commit, pull, push)
+5. En el punto 4 si hay conflictos de deben arreglar.
+
+NOTA
+git flow 
+trabajo en equipo en git
+resolucion de conflictos en git
