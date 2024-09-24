@@ -1,5 +1,10 @@
 /**
  * BLOQUE 3 - Solucion con callbacks
+ * Un callback es una funcion que pasamos como parametro a otra funcion,
+ * con el fin de ejecutar la funcion que se pasa como parametro en el 
+ * momento que queramos.
+ * NOTA: No es una buena practica utilizar calbacks porque se van anidando 
+ * y el codigo se vuelve ilegible.
  */
 const showSuccesMessage = () => {
     console.log('3. Enviando producto');
