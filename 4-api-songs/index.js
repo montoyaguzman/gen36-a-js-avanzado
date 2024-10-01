@@ -22,7 +22,7 @@ app.get('/hellow', (req, res) => {
 // getSongs (ejemplo query y request params)
 // http://localhost:3000/songs?genre=rock&artist=metallica     ==>   queryParams: filtros de la info
 // http://localhost:3000/songs/3/album/6                       ==>   requestParam: seleccionar un dato especifico
-app.get('/songs/:id', (req, res) => {
+app.get('/songs/:id?', (req, res) => {
     console.log(req.query.genre);
     console.log(req.params.id);
     res.status(200).json(songs);
@@ -36,4 +36,34 @@ app.post('/songs', (req, res) => {
     res.status(201).send();
 });
 
+// PATCH
+// Se utiliza para modificaciones parciales de los objetos
+app.patch('/songs/:id', (req, res) => {
+
+    const id = req.params.id;
+    const newSong = req.body;
+    const foundedPosition = songs.findIndex(element => element.id === parseInt(id));
+    // for in, objectkeys
+    songs[foundedPosition] = { ...songs[foundedPosition], ...newSong }
+    res.status(200).json({ id, message: 'partial info edited' });
+
+});
+
+// PUT
+// Se utiliza modificar los objetos completos
+app.put('/songs/:id', (req, res) => {
+    const id = req.params.id;
+    const newSong = req.body;
+    const foundedPosition = songs.findIndex(element => element.id === parseInt(id));
+    songs[foundedPosition] = newSong;
+    res.status(200).json({ id, message: 'all info edited' });
+});
+
+// DELETE
+app.delete('/songs/:id', (req, res) => {
+    const id = req.params.id;
+    const foundedPosition = songs.findIndex(element => element.id === parseInt(id));
+    songs.splice(foundedPosition, 1);
+    res.status(200).json({ id });
+});
 
